@@ -8,11 +8,46 @@
 
 ### Minor
 
+### Patch
+
+</details>
+
+## 0.123.0 (Feb 7, 2020)
+
+### Minor
+
+- Color: update dark gray color to #111 (#648)
+- Masonry: Shipped "fixFetchMoreBug" behavior and removed flag. This makes Masonry fetch less aggressively in some cases. (#651)
+
+## 0.122.3 (Jan 30, 2020)
+
+### Patch
+
+- Bumping version with no other changes for the sake of fixing release to npm.
+
+## 0.122.2 (Jan 30, 2020)
+
+### Patch
+
+- Masonry: Reverts the past update to `wait`. Turns out this was more dangerous than expected, and we should experiment on it later. (#645)
+
+## 0.122.1 (Jan 29, 2020)
+
+### Patch
+
+- Masonry: Add a `wait` value for throttling updateScrollPosition (#641)
+
+## 0.122.0 (Jan 28, 2020)
+
+### Minor
+
+- Icon: Update existing workflow icon svg for ok, halted, problem, unstarted, in progress and warning (#638)
+- Icon: Added newline in css file and removed comment (#637)
 - Icon: Add right-to-left locales flip style support (#631)
 
 ### Patch
 
-</details>
+- Docs: Update docs to wrap Flyouts, Modals, and Tooltips in Layers so they don't get overlapped by example code (#639)
 
 ## 0.121.0 (Jan 21, 2020)
 
